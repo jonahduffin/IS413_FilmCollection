@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "View All Movies";
+}
+
+@model IEnumerable<joel_hilton_film_collection.Models.MovieSubmissionResponse>
+<h2>Here are the movies that have been submitted to Joel Hilton's Film Collection.</h2>
+
+<table>
+    <thead>
+        <tr><th>Category</th><th>Title</th><th>Year</th><th>Director</th><th>Rating</th><th>Edited</th><th>Lent To</th><th>Notes</th></tr>
+    </thead>
+    <tbody>
+        @foreach (joel_hilton_film_collection.Models.MovieSubmissionResponse responses in Model)
+        {
+            @if (responses.Title != "Independence Day")
+                {
+                    <tr>
+                        <td>@responses.Category</td>
+                        <td>@responses.Title</td>
+                        <td>@responses.Year</td>
+                        <td>@responses.Director</td>
+                        <td>@responses.Rating</td>
+                        <td>@responses.Edited</td>
+                        <td>@responses.LentTo </td>
+                        <td>@responses.Notes</td>
+                    </tr>
+                }
+            }
+    </tbody>
+</table>

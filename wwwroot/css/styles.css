@@ -1,0 +1,91 @@
+﻿body {
+    font-family: Montserrat;
+    background-color: lightgray;
+}
+
+label {
+    font-size: 20px;
+    color: #8f0404;
+    width: 220px;
+    display: inline-block;
+    text-align: right;
+    font-weight: bold;
+}
+
+.content-holder {
+    padding: 15px 0;
+}
+
+.content-div {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
+    height: auto;
+    border-color: rgb(128, 128, 128);
+    border-style: solid;
+    border-radius: 3px 3px 3px 3px;
+    border-width: 2px;
+    background-color: #ebebeb
+}
+
+.header {
+    text-align: center;
+    color: #8f0404
+}
+
+h1 {
+    color: #8f0404
+}
+
+h3 {
+    color: #8f0404
+}
+
+b {
+    color: #8f0404
+}
+
+.headerbar {
+    text-align: center;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    position: relative;
+    background-color: lightgray;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.headerlink {
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 2.5rem;
+    color: #8f0404;
+    font-weight:bold;
+}
+
+a:visited {
+    color: #8f0404
+}
+
+th {
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: solid;
+    border-color: #8f0404;
+}
+td {
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: solid;
+    border-width: 1px;
+    border-color: #8f0404;
+}

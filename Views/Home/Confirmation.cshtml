@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Movie Submission Received!";
+}
+
+@model joel_hilton_film_collection.Models.MovieSubmissionResponse
+
+<div>
+    <p>@Model.Title has been added to the Joe Hilton Film Collection. Thank you!</p>
+    @if (Model.Title == "Independence Day")
+    {
+        @:But, for legal reasons, we will never display your movie on our list.
+    }
+    else
+    {
+        @:By the way, great movie choice.
+    }
+</div>
+<br />
+<div>
+    Click <a asp-action="MoviesList">here</a> to see the movie list.
+</div>
