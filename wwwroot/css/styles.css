@@ -6,7 +6,7 @@
 label {
     font-size: 20px;
     color: #8f0404;
-    width: 220px;
+    width: 100px;
     display: inline-block;
     text-align: right;
     font-weight: bold;
@@ -20,7 +20,7 @@ label {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 10px;
-    width: 60%;
+    width: 80%;
     margin: auto;
     height: auto;
     border-color: rgb(128, 128, 128);
@@ -66,26 +66,4 @@ b {
     font-size: 2.5rem;
     color: #8f0404;
     font-weight:bold;
-}
-
-a:visited {
-    color: #8f0404
-}
-
-th {
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    border: solid;
-    border-color: #8f0404;
-}
-td {
-    padding-left: 7px;
-    padding-right: 7px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    border: solid;
-    border-width: 1px;
-    border-color: #8f0404;
 }

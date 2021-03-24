@@ -2,6 +2,11 @@
     ViewBag.Title = "Joel Hilton Movie Submission Form";
 }
 @model joel_hilton_film_collection.Models.MovieSubmissionResponse
+
+<div class="text-center">
+    <h3>Submit a Movie</h3>
+</div>
+
 <form asp-action="MovieSubmission" method="post">
     <div>
         <label asp-for="Category">Category:</label>
@@ -52,6 +57,6 @@
         <input asp-for="Notes" />
     </div>
 
-    <button type="submit" id="submitButton">Submit Your Movie</button>
+    <button type="submit" id="submitButton" class="btn-success">Submit Your Movie</button>
     <div asp-validation-summary="All"></div>
 </form>

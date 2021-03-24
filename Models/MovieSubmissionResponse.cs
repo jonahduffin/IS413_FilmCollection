@@ -8,6 +8,8 @@ namespace joel_hilton_film_collection.Models
 {
     public class MovieSubmissionResponse
     {
+        [Key]
+        public int SubmissionId { get; set; }
         [Required(ErrorMessage = "Please enter the Category")]
         public string Category { get; set; }
         [Required(ErrorMessage = "Please enter the Title")]
